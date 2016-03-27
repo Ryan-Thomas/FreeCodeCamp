@@ -1,0 +1,119 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    color: ghostwhite;
+    cursor: default;
+}
+
+#container {
+    display: flex;
+}
+
+.control, .controlSection {
+    display: inline-block;
+}
+
+#controls, #title {
+    background-image: url("woodgrain.jpg");
+    border-radius: 10px;
+    display: block;
+    box-shadow: 5px 5px 5px #111111;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+}
+
+#controls, #title, #timer-box {
+    text-shadow: 3px 3px 5px #111111;
+}
+
+.controlSection {
+    width: 49%;
+    text-align: center;
+}
+
+#left {
+    display: inline-flex;
+    position: relative;
+    width: 40%;
+}
+
+#left, #right {
+    /*display: inline-block; */
+}
+
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.pseudo-button {
+    padding: 0 8px 0 8px;
+}
+
+.pseudo-button:hover {
+    color: #8E9F3B;
+}
+
+.pseudo-button, #timer-box, .tomato {
+    cursor: pointer;
+}
+
+#right {
+    display: inline-block;
+    margin-left: 10%;
+    text-align: center;
+    width: 40%;
+}
+
+#ripe {
+    display: inline;
+    z-index: 1;
+}
+
+span {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    font-size: 3em;
+}
+
+#title {
+    display: inline-block;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+#timer-box {
+    left: 32%;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    z-index: 10;
+}
+
+#timer-box > h1 {
+    font-size: 4em;
+}
+
+.tomato {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#tomato-container {
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
+#unripeContainer {
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+}

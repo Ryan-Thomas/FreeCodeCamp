@@ -1,0 +1,82 @@
+@font-face{
+    font-family: "calculator";
+    src: url('calculator_font.ttf'),
+    url('calculator_font.ttf'); /* IE */
+}
+
+.button {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 3em;
+    height: 75px;
+    justify-content: center;
+    width: 23.5%;
+}
+
+.button:hover {
+    background-color: steelblue;
+    color: gainsboro;
+}
+
+.button, #display {
+    background-color: lightcyan;
+}
+
+.button, #calculator, #display {
+    border-radius: 5px;
+}
+
+.button, #input, #result {
+    font-family: calculator, sans-serif;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#input {
+    display: block;
+    margin: 5px 5px 0 5px;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+}
+
+#calculator {
+    background-color: lightblue;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 10px 0 10px;
+}
+
+#container {
+    text-align: center;
+}
+
+#display {
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* IE/Edge */
+    user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+#result {
+    bottom: 0;
+    right: 10px;
+    font-size: 5em;
+    margin: 0;
+    position: absolute;
+}

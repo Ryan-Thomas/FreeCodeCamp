@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Random Quote Generator</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="quotes.js"></script>
+    <link href="quotes.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <!-- Quote Generator -->
+        <div class="row">
+            <div class="content-column">
+                <div class="text-center" id="box">
+                    <!-- Should contain everything besides attribution -->
+                    <div id="text-area">
+                        <i class="fa fa-quote-left glyph"></i>
+                        <span id="quote-text"></span>
+                        <p id="author"></p>
+
+                        <!-- Buttons -->
+                        <div id="button-row">
+                            <!-- Tweet button -->
+                            <a id="tweet-button" href="#">
+                                <div class="button-div">
+                                    <i class="fa fa-twitter button-glyph"></i>
+                                </div>
+                                <div class="button-div" id="tumblr-button-div">
+                                    <i class="fa fa-tumblr button-glyph"></i>
+                                </div>
+                            </a>
+                            <!-- Tumblr Button -->
+                            <!-- New Quote Button -->
+                            <a id="new-quote" href="#">
+                                <div class="button-div" id="new-quote-div">
+                                    New Quote
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Row with my name -->
+        <div class="row">
+            <div class="content-column text-center" id="attribution">
+                <a href="../portfolio/portfolio.html">Ryan Thomas</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

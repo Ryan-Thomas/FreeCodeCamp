@@ -1,0 +1,63 @@
+#author {
+    font-size: 16pt;
+    margin-top: 7px;
+    text-align: right;
+}
+
+#box {
+    background-color: ghostwhite;
+    margin-top: 150px;
+    padding: 40px;
+}
+
+#box, .button-div {
+    border-radius: 3px;
+}
+
+.button-div {
+    display: inline-block;
+    width: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.button-glyph {
+    color: ghostwhite;
+}
+
+#button-row {
+    text-align: left;
+}
+
+.content-column {
+    width: 600px;
+}
+
+.content-column, #text-area, #attribution {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#attribution a {
+    color: ghostwhite;
+    font-size: 14px;
+}
+
+.glyph, .button-glyph {
+    font-size: 175%;
+}
+
+#quote-text {
+    font-size: 175%;
+}
+
+#new-quote {
+    color: ghostwhite;
+}
+
+#new-quote-div {
+    float: right;
+    padding: 8px 11px 8px 11px;
+    width: auto;
+}

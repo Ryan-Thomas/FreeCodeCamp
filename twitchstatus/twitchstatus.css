@@ -1,0 +1,69 @@
+body {
+    background-color: #19191F;
+}
+
+.icon > img {
+    border-radius: 5px;
+    height: 50px;
+}
+
+.name:hover {
+    color: mediumslateblue;
+    cursor: pointer;
+}
+
+#navigation {
+    background-color: darkslateblue;
+    color: ghostwhite;
+    margin: 0;
+}
+
+.online {
+    background-color: darkslateblue;
+}
+
+.offline {
+    background-color: #303045;
+}
+
+.streamer {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px 0 5px 0;
+    margin-bottom: 2px;
+}
+
+#streams {
+    color: ghostwhite;
+    margin-top: 50px
+}
+
+#streams h3 {
+    margin: 0;
+}
+
+.text-node {
+    margin: 0;
+}
+
+.title {
+    font-size: 3.5em;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+.toggle {
+    align-items: center;
+    border-radius: 5px;
+    display: inline-flex;
+    letter-spacing: 2px;
+    position: relative;
+    padding: 0 15px 0 15px;
+    margin: 0;
+}
+
+.toggle:hover {
+    background-color: mediumslateblue;
+    cursor: pointer;
+}

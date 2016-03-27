@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math Practice</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <script src="mathpractice.js"></script>
+    <link href="mathpractice.css" rel="stylesheet" />
+
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-4">
+            <h1 class="text-center">Options</h1>
+            <form role="form">
+                <div class="form-group">
+                    <label for="digits1">First Number Digits</label>
+                    <div class="range range-success">
+                        <input type="range" id="digits1" name="range" min="1" max="5" value="3" oninput="rangePrimary1.value=value">
+                        <output id="rangePrimary1">3</output>
+                    </div>
+                    <label for="digits2">Second Number Digits</label>
+                    <div class="range range-success">
+                        <input type="range" id="digits2" name="range" min="1" max="5" value="3" oninput="rangePrimary2.value=value">
+                        <output id="rangePrimary2">3</output>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="operation">Operation</label>
+                </div>
+
+            </form>
+
+        </div>
+        <div class="col-md-8">
+            <h1 class="text-center">Questions</h1>
+        </div>
+    </div>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

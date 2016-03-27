@@ -1,0 +1,17 @@
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+body {
+    background-color: #161616;
+    color: ghostwhite;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 26px;
+}

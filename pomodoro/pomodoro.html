@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Timer</title>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="pomodoro.js"></script>
+    <link href="pomodoro.css" rel="stylesheet" />
+</head>
+<body class="no-select">
+    <div id="container">
+        <div id="left">
+            <div id="timer-box">
+                <h1 id="state">Session</h1>
+                <h1 id="timer">25:00</h1>
+            </div>
+            <div id="tomato-container">
+                <div id="unripeContainer">
+                    <img class="tomato" id="unripe" src="unripe.png" alt="unripe"/>
+                </div>
+                <img class="tomato" id="ripe" src="ripe.png" alt="ripe"/>
+            </div>
+        </div>
+        <div id="right">
+            <h1 id="title">POMODORO TIMER</h1>
+            <div id="controls">
+                <div class="controlSection">
+                    <h3 class="control">Break Length</h3>
+                    <div class="control-box">
+                        <span class="pseudo-button" id="minus-break">-</span>
+                        <span id="break">5</span>
+                        <span class="pseudo-button" id="plus-break">+</span>
+                    </div>
+                </div>
+                <div class="controlSection">
+                    <h3 class="control">Session Length</h3>
+                    <div class="control-box">
+                        <span class="pseudo-button" id="minus-session">-</span>
+                        <span id="session">25</span>
+                        <span class="pseudo-button" id="plus-session">+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

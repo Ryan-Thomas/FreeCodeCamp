@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Ryan Thomas</title>
+
+        <!-- Bootstrap -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <script src="portfolio.js"></script>
+        <link href="portfolio.css" rel="stylesheet" />
+    </head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="" class="navbar-brand">Ryan Thomas</a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home">Home</a></li>
+                    <li ><a href="#about">About</a></li>
+                    <li ><a href="#portfolio">Portfolio</a></li>
+                    <li ><a href="#contact">Contact</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container contentContainer" id="home">
+        <h1 id="name" class="text-center">Ryan Thomas</h1>
+        <h2 class="title text-center">Web Developer</h2>
+        <hr />
+        <div class="row">
+            <div id="buttons" class="text-center">
+                <a href="https://github.com/Ryan-Thomas" target="_blank"><button class="btn contactButton">
+                    Github
+                </button></a>
+                <a href="https://www.linkedin.com/in/ryanthomas70" target="_blank"><button class="btn contactButton">
+                    LinkedIn
+                </button></a>
+                <a href="http://www.freecodecamp.com/ryan-thomas" target="_blank"><button class="btn contactButton">
+                    FreeCodeCamp
+                </button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container contentContainer" id="about">
+        <h1 class="text-center" id="who">Who Am I</h1>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-1">
+                <div class="jumbotron" id="aboutJumbotron">
+                    <h3>I'm a student at the University of Washington</h3>
+                    <h3>Languages and Frameworks:</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Javascript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap3</li>
+                    </ul>
+                    <h3>Technologies</h3>
+                    <ul>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="container contentContainer" id="portfolio">
+        <h1 class="text-center pageTitle">Portfolio</h1>
+        <h2 class="title text-center">Below you'll see some of my recent work</h2>
+        <div class="row text-center">
+            <div class="col-md-4" id="thumbnails">
+                <a href="http://codepen.io/ryanthomas/pen/xZBYRx" target="_blank">
+                    <img class="img-rounded img-responsive" src="images/roosevelt.PNG" alt="Roosevelt" />
+                </a>
+                <div class=jumbotron>
+                    <footer>
+                        <p>Tribute Page to Theodore Roosevelt</p>
+                        <p>Bootstrap</p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
